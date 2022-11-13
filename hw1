@@ -1,0 +1,7 @@
+SELECT `library`.`id`,
+    `library`.`name`,
+    `library`.`platform`,
+    `library`.`requirements`,
+    `library`.`technology support`
+FROM `library_system`.`library`;
+SELECT * FROM library_system.library;
